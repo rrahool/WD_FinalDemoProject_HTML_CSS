@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.orange-highlight{
+    color: orangered;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, yellow, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.mid-area{
+    background-image: url(images/mid-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.special-area{
+    background-image: url(images/special-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-card{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+#messi-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, yellow, tomato);
+    border-image-slice: 1;
+}
+
+#ronaldo-card{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
